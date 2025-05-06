@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class InvalidActionException {
+class InvalidActionException extends Exception {
+    public InvalidActionException(String message) {
+        super(message);
+    }
 }
